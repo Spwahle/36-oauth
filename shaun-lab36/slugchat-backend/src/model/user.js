@@ -1,13 +1,13 @@
-'use strict'
+'use strict';
 
 // DEPENDECIES
-import faker from 'faker'
-import * as bcrypt from 'bcrypt'
-import {randomBytes} from 'crypto'
-import * as jwt from 'jsonwebtoken'
-import createError from 'http-errors'
-import Mongoose, {Schema} from 'mongoose'
-import {promisify} from '../lib/promisify.js'
+import faker from 'faker';
+import * as bcrypt from 'bcrypt';
+import {randomBytes} from 'crypto';
+import * as jwt from 'jsonwebtoken';
+import createError from 'http-errors';
+import Mongoose, {Schema} from 'mongoose';
+import {promisify} from '../lib/promisify.js';
 
 // SCHEMA
 const userSchema =  new Schema({
